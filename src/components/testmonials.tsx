@@ -8,8 +8,8 @@ type Props = {}
 
 const Testmonials = (props: Props) => {
   return (
-    <section id="testmonials" className="w-full h-screen py-12 md:py-24 lg:py-32">
-      <div className="container px-4 md:px-6">
+    <section id="testmonials" className="w-full md:w-full py-12 md:py-24 lg:py-32">
+      <div className="container px-4 ">
         <div className="flex flex-col items-center justify-center space-y-20 text-center">
           <div className="space-y-2">
             <h2 className="text-3xl font-bold tracking-tighter md:text-4xl/tight">Client Testimonials</h2>
@@ -18,7 +18,7 @@ const Testmonials = (props: Props) => {
             </p>
           </div>
           <Carousel
-            className="w-full h-full"
+            className="sm:w-screen lg:w-1/2 md:w-screen h-full"
             plugins={[
               Autoplay({
                 delay: 3000,
@@ -36,7 +36,7 @@ const Testmonials = (props: Props) => {
               </ClientTestmonial>
               <ClientTestmonial
                 clientName='Abdullah Baghweetah'
-                clientFeedback='  طارق  شخص مبدع  طارق  شخص مبدع  طارق  شخص مبدع  طارق  شخص مبدع  طارق  شخص مبدع  طارق  شخص مبدع طارق  شخص مبدع '
+                clientFeedback='fdfd'
                 clientImage='/clients/client2.jpeg'
                 clientCountry='us'
                 clientTitle='Digital Marketing Specialist @ Monhna.com'
@@ -60,8 +60,6 @@ const Testmonials = (props: Props) => {
               </ClientTestmonial>
 
             </CarouselContent>
-            <CarouselPrevious />
-            <CarouselNext />
           </Carousel>
         </div>
       </div>

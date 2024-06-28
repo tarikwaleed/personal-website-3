@@ -33,7 +33,7 @@ const Header = (props: Props) => {
             </div>
             <div className="flex gap-4">
               <Link
-                href="https://wa.me/1065590159?text=I%20have%20a%20project%20idea"
+                href="https://wa.me/201065590159?text=I%20have%20a%20project%20idea"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="rounded-full inline-flex items-center justify-center bg-[#25D366] px-4 py-2 text-sm font-medium text-white shadow transition-colors hover:bg-[#21cb60] focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50"
